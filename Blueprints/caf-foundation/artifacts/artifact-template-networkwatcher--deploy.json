@@ -1,0 +1,73 @@
+﻿{
+  "properties": {
+    "template": {
+      "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "location": {
+          "type": "string",
+          "metadata": {
+            "displayName": "Location",
+            "description": "Location to deploy Network Watcher to"
+          },
+          "allowedValues": [
+            "Australia Central",
+            "Australia East",
+            "Australia Southeast",
+            "Brazil South",
+            "Canada Central",
+            "Central India",
+            "Central US",
+            "East Asia",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Japan East",
+            "Korea Central",
+            "North Central US",
+            "North Europe",
+            "South Africa North",
+            "South Central US",
+            "Southeast Asia",
+            "UK South",
+            "UK West",
+            "West Europe",
+            "West US",
+            "West US 2"
+          ]
+        }
+      },
+      "variables": {
+        "networkwatcher-name": "NetworkWatcher"
+      },
+      "resources": [
+        {
+          "name": "[variables('networkwatcher-name')]",
+          "type": "Microsoft.Network/networkWatchers",
+          "apiVersion": "2018-08-01",
+          "location": "[parameters('location')]",
+          "properties": {},
+          "resources": []
+        }
+      ],
+      "outputs": {
+        
+      }
+    },
+    "parameters": {
+      "location": {
+        "value": "[parameters('NetworkWatcher_Location')]"
+      }
+    },
+    "dependsOn": [
+    
+    ],
+    "resourceGroup": "rg-NetworkWatcher",
+    "displayName": "Deploy Network Watcher",
+    "description": "Deploy Network Watcher for network analytics and tools"
+  },
+  "kind": "template",
+  "id": "/providers/Microsoft.Blueprint/blueprints/CAF-Foundation/artifacts/artifact-template-networkwatcher--deploy",
+  "type": "Microsoft.Blueprint/blueprints/artifacts",
+  "name": "artifact-template-networkwatcher--deploy"
+}

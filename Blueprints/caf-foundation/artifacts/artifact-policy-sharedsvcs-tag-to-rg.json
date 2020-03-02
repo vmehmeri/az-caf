@@ -1,0 +1,21 @@
+﻿{
+  "properties": {
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49c88fc8-6fd1-46fd-a676-f12d1d3a4c71",
+    "parameters": {
+      "tagName": {
+        "value": "SharedServices"
+      },
+      "tagValue": {
+        "value": "[parameters('Policy_SharedServices_Tag')]"
+      }
+    },
+    "dependsOn": [
+    
+    ],
+    "displayName": "Append SharedServices TAG to Resource Groups"
+  },
+  "kind": "policyAssignment",
+  "id": "/providers/Microsoft.Blueprint/blueprints/CAF-Foundation/artifacts/artifact-policy-sharedservices-tag-to-rg",
+  "type": "Microsoft.Blueprint/blueprints/artifacts",
+  "name": "artifact-policy-sharedservices-tag-to-rg"
+}
