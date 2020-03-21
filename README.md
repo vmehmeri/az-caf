@@ -7,10 +7,13 @@ CAF is a set of methodologies. It's iterative, and not something "you do".
 
 [Building a Digital Operating Model with Microsoft Cloud Adoption Framework (PDF)](https://azure.microsoft.com/en-us/resources/building-a-digital-operating-model-with-microsoft-cloud-adoption-framework/ "Building a Digital Operating Model with Microsoft Cloud Adoption Framework (PDF)")
 
+[Microsoft CAF Strategy and Plan template](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx "Microsoft Cloud Adoption Framework Strategy and Plan Template")
+
 [Naming and Tagging tracker template](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/CAF%20Readiness%20Naming%20and%20Tagging%20tracking%20template.xlsx "Naming and Tagging tracker template")
 
-![CAF](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/caf-overview.png "CAF Phases")
+[Architectural Decision Guides](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/decision-guides/ "Architectural decision guides")
 
+![CAF](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/caf-overview.png "CAF Phases")
 
 
 ## Plan
