@@ -15,6 +15,16 @@ CAF is a set of methodologies. It's iterative, and not something "you do".
 
 ![CAF](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/_images/caf-overview.png "CAF Phases")
 
+## Implement Disciplines of Cloud Governance
+[Cost Management template](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Cost%20Management%20Discipline%20Template.docx "Cost Management Template")
+
+[Security Baseline template](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Security%20Baseline%20Discipline%20Template.docx "Security Baseline Template")
+
+[Identity Baseline template](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Identity%20Baseline%20Discipline%20Template.docx "Identity Baseline Template")
+
+[Resource consistency template](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Resource%20Consistency%20Discipline%20Template.docx "Resource Consistency Template")
+
+[Deployment Acceleration template](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Deployment%20Acceleration%20Discipline%20Template.docx "Deployment Acceleration Template")
 
 ## Plan
 Cloud Adoption Team (execution, agility) vs Cloud Governance Team (ensures processes and controls are implemented)
